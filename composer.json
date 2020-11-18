@@ -1,0 +1,17 @@
+{
+    "name": "denobraz/yii2-editor",
+    "description": "Page and posts support for yii2",
+    "type": "yii2-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Denis Shevchenko",
+            "email": "denobraz@mail.ru"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*",
+        "yiisoft/yii2-bootstrap": "*"
+    },
+    "minimum-stability": "dev"
+}
