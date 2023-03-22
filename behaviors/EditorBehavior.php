@@ -47,7 +47,6 @@ class EditorBehavior extends Behavior
 
     public function convertEditor()
     {
-        Yii::error($this->owner->{$this->jsonContentAttribute}, 'lol');
         $this->owner->{$this->contentAttribute} = $this->editorService->convert($this->owner->{$this->jsonContentAttribute});
     }
 
